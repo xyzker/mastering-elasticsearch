@@ -1,0 +1,94 @@
+{
+  "took" : 37,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 577861,
+    "max_score" : 3.2919745,
+    "hits" : [ {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "7853879",
+      "_score" : 3.2919745,
+      "fields" : {
+        "title" : [ "Australian Honours System" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "3706849",
+      "_score" : 3.1142306,
+      "fields" : {
+        "title" : [ "List of Australian Awards" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "24836066",
+      "_score" : 3.1140995,
+      "fields" : {
+        "title" : [ "Australian soccer league" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "25250323",
+      "_score" : 2.8804777,
+      "fields" : {
+        "title" : [ "Australian football league system" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "7239275",
+      "_score" : 2.8573864,
+      "fields" : {
+        "title" : [ "AANBUS" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "6744494",
+      "_score" : 2.8509052,
+      "fields" : {
+        "title" : [ "Australia Day Honours" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "26663528",
+      "_score" : 2.6284835,
+      "fields" : {
+        "title" : [ "Australian rating system" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "3896219",
+      "_score" : 2.5002131,
+      "fields" : {
+        "title" : [ "TAAATS" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "13543384",
+      "_score" : 2.4745693,
+      "fields" : {
+        "title" : [ "Australian Arbitration system" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "24853649",
+      "_score" : 2.4689565,
+      "fields" : {
+        "title" : [ "Western Australian Land Information System (WALIS)" ]
+      }
+    } ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "took" : 196,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 67791,
+    "max_score" : 1.9711245,
+    "hits" : [ {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "11831449",
+      "_score" : 1.9711245,
+      "fields" : {
+        "title" : [ "Aurelia (Australia)" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "2568010",
+      "_score" : 1.8470266,
+      "fields" : {
+        "title" : [ "Australian Kestrel" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "8952722",
+      "_score" : 1.7773125,
+      "fields" : {
+        "title" : [ "Austrlia" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "20557426",
+      "_score" : 1.7606826,
+      "fields" : {
+        "title" : [ "Australian-Austrian relations" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "27522419",
+      "_score" : 1.7598429,
+      "fields" : {
+        "title" : [ "Australia-Austria relations" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "19933620",
+      "_score" : 1.759699,
+      "fields" : {
+        "title" : [ "Australia–Austria relations" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "19089897",
+      "_score" : 1.7566761,
+      "fields" : {
+        "title" : [ "Australian religion" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "10747305",
+      "_score" : 1.7316886,
+      "fields" : {
+        "title" : [ "CARE Australia" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "10747312",
+      "_score" : 1.7316886,
+      "fields" : {
+        "title" : [ "Care Australia" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "13265932",
+      "_score" : 1.7256225,
+      "fields" : {
+        "title" : [ "Felix Austria" ]
+      }
+    } ]
+  }
+}

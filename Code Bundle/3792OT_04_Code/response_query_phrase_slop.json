@@ -1,0 +1,94 @@
+{
+  "took" : 86,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 577861,
+    "max_score" : 5.4862103,
+    "hits" : [ {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "7853879",
+      "_score" : 5.4862103,
+      "fields" : {
+        "title" : [ "Australian Honours System" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "363039",
+      "_score" : 5.4583545,
+      "fields" : {
+        "title" : [ "Australian honours system" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "11268858",
+      "_score" : 4.105736,
+      "fields" : {
+        "title" : [ "Wikipedia:Articles for deletion/Australian university system" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "26663528",
+      "_score" : 3.6504827,
+      "fields" : {
+        "title" : [ "Australian rating system" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "12324081",
+      "_score" : 3.6486394,
+      "fields" : {
+        "title" : [ "Australian Series System" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "13543384",
+      "_score" : 3.6486394,
+      "fields" : {
+        "title" : [ "Australian Arbitration system" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "15285561",
+      "_score" : 3.6486394,
+      "fields" : {
+        "title" : [ "Australian university system" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "28328622",
+      "_score" : 3.6486394,
+      "fields" : {
+        "title" : [ "Australian Education System" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "320884",
+      "_score" : 3.6474273,
+      "fields" : {
+        "title" : [ "The Australian electoral system" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "28328629",
+      "_score" : 3.6299477,
+      "fields" : {
+        "title" : [ "Australian Legal System" ]
+      }
+    } ]
+  }
+}

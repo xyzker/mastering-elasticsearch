@@ -1,0 +1,66 @@
+{
+   "settings": {
+      "index": {
+         "analysis": {
+            "analyzer": {
+               "keyword_ngram": {
+                  "filter": [
+                     "lowercase"
+                  ],
+                  "tokenizer": "ngram"
+               }
+            }
+         }
+      }
+   },
+   "mappings": {
+      "page": {
+         "properties": {
+            "category": {
+               "type": "string",
+               "fields": {
+                  "untouched": {
+                     "type": "string",
+                     "index": "not_analyzed"
+                  }
+               }
+            },
+            "disambiguation": {
+               "type": "boolean"
+            },
+            "link": {
+               "type": "string",
+               "index": "not_analyzed"
+            },
+            "redirect": {
+               "type": "boolean"
+            },
+            "redirect_page": {
+               "type": "string"
+            },
+            "special": {
+               "type": "boolean"
+            },
+            "stub": {
+               "type": "boolean"
+            },
+            "text": {
+               "type": "string"
+            },
+            "title": {
+               "type": "string",
+               "fields": {
+                  "ngram": {
+                     "type": "string",
+                     "analyzer": "keyword_ngram"
+                  },
+                  "simple": {
+                     "type": "string",
+                     "analyzer": "simple"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

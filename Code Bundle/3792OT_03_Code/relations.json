@@ -1,0 +1,15 @@
+{
+  "book" : {
+    "properties" : {
+      "title" : {"type": "string" },
+      "quantity" : {"type": "integer" },
+      "edition" : {
+        "type" : "object",
+        "properties" : {
+          "isbn" : {"type" : "string",  "index" : "not_analyzed" },
+          "circulation" : {"type" : "integer" }
+        }
+      }
+    }
+  }
+}

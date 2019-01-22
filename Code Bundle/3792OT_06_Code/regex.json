@@ -1,0 +1,9 @@
+{ "index": {"_index": "books", "_type": "book", "_id": "1"}}
+{"tag":["one"]}
+{ "index": {"_index": "books", "_type": "book", "_id": "2"}}
+{"tag":["one"]}
+{ "index": {"_index": "books", "_type": "book", "_id": "3"}}
+{"tag":["one"]}
+{ "index": {"_index": "books", "_type": "book", "_id": "4"}}
+{"tag":["four"]}
+

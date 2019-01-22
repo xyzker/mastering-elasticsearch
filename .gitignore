@@ -1,0 +1,10 @@
+*.class
+*.jar
+*.war
+.classpath
+*.pyc
+tags
+target
+.idea
+cpush.iml
+.DS_Store

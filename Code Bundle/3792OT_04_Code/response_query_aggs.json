@@ -1,0 +1,130 @@
+{
+  "took" : 21,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 22917,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "15399672",
+      "_score" : 1.0,
+      "fields" : {
+        "title" : [ "A Rage to Live" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "15447894",
+      "_score" : 1.0,
+      "fields" : {
+        "title" : [ "Ground Zero (1987 film)" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "15448347",
+      "_score" : 1.0,
+      "fields" : {
+        "title" : [ "The Screening" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "15441884",
+      "_score" : 1.0,
+      "fields" : {
+        "title" : [ "The American Ruling Class" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "15406605",
+      "_score" : 1.0,
+      "fields" : {
+        "title" : [ "A Secret Handshake" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "15402569",
+      "_score" : 1.0,
+      "fields" : {
+        "title" : [ "Kiss the Bride (2007 film)" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "14063136",
+      "_score" : 1.0,
+      "fields" : {
+        "title" : [ "Dog Eat Dog (2001 film)" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "14065156",
+      "_score" : 1.0,
+      "fields" : {
+        "title" : [ "Killer Drag Queens on Dope" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "14097781",
+      "_score" : 1.0,
+      "fields" : {
+        "title" : [ "Challenge to Lassie" ]
+      }
+    }, {
+      "_index" : "wikipedia",
+      "_type" : "page",
+      "_id" : "14035596",
+      "_score" : 1.0,
+      "fields" : {
+        "title" : [ "Boogie Woogie (film)" ]
+      }
+    } ]
+  },
+  "aggregations" : {
+    "category_agg" : {
+      "doc_count_error_upper_bound" : 445,
+      "buckets" : [ {
+        "key" : "English-language films",
+        "doc_count" : 22917
+      }, {
+        "key" : "American films",
+        "doc_count" : 10654
+      }, {
+        "key" : "Black-and-white films",
+        "doc_count" : 4426
+      }, {
+        "key" : "British films",
+        "doc_count" : 3632
+      }, {
+        "key" : "Independent films",
+        "doc_count" : 1774
+      }, {
+        "key" : "American drama films",
+        "doc_count" : 1295
+      }, {
+        "key" : "Films based on novels",
+        "doc_count" : 1232
+      }, {
+        "key" : "American documentary films",
+        "doc_count" : 1191
+      }, {
+        "key" : "Directorial debut films",
+        "doc_count" : 1118
+      }, {
+        "key" : "2000s drama films",
+        "doc_count" : 1069
+      } ]
+    }
+  }
+}
