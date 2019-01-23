@@ -1,0 +1,32 @@
+curl -XPUT 'localhost:9200/scoring' -d '{
+    "settings":{
+        "index":{
+            "number_of_shards":1,
+            "number_of_replicas":0
+        }
+    }
+}'
+
+curl -XPOST 'localhost:9200/scoring/doc/1' -d '{
+    "name":"first document"
+}'
+
+curl -XGET 'localhost:9200/scoring/_search?pretty' -d '{
+    "query":{
+        "match":{
+            "name" :  "document"
+        }
+    }
+}'
+
+curl -XGET 'localhost:9200/scoring/doc/1/_explain?pretty' -d '{
+    "query":{
+        "match":{
+            "name" :  "document"
+        }
+    }
+}'
+
+curl -XPOST 'localhost:9200/scoring/doc/2' -d '{
+    "name":"second example document"
+}'

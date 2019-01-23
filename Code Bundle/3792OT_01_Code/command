@@ -1,0 +1,2 @@
+curl -XPOST 'localhost:9200/library'
+curl -XPUT 'localhost:9200/library/book/_mapping' -d @library.json
