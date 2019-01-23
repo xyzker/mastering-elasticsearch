@@ -30,3 +30,58 @@ curl -XGET 'localhost:9200/scoring/doc/1/_explain?pretty' -d '{
 curl -XPOST 'localhost:9200/scoring/doc/2' -d '{
     "name":"second example document"
 }'
+
+curl -XPUT 'localhost:9200/clients/client/1' -d '{
+    "id":"1",
+    "name":"Joe"
+}'
+
+curl -XPUT 'localhost:9200/clients/client/2' -d '{
+    "id":"2",
+    "name":"Jane"
+}'
+
+curl -XPUT 'localhost:9200/clients/client/3' -d '{
+    "id":"3",
+    "name":"Jack"
+}'
+
+curl -XPUT 'localhost:9200/clients/client/4' -d '{
+    "id":"4",
+    "name":"Rob"
+}'
+
+curl -XGET 'localhost:9200/clients/_search?pretty' -d '{
+    "query":{
+        "prefix":{
+            "name" :{
+                "prefix":"j",
+                "rewrite":"constant_score_boolean"
+            }
+        }
+    }
+}'
+
+curl -XGET 'localhost:9200/clients/client/_mapping?pretty'
+
+curl -XGET 'localhost:9200/clients/client/1/_explain?pretty' -d '{
+    "query":{
+        "prefix":{
+            "name" :{
+                "prefix":"j",
+                "rewrite":"constant_score_boolean"
+            }
+        }
+    }
+}'
+
+curl -XGET 'localhost:9200/clients/client/_validate/query?explain&pretty' -d '{
+    "query":{
+        "prefix":{
+            "name" :{
+                "prefix":"j",
+                "rewrite":"constant_score_boolean"
+            }
+        }
+    }
+}'
